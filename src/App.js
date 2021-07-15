@@ -1,5 +1,4 @@
 import './App.css'
-import { useEffect } from 'react';
 import NavBar from './components/NavBar/NavBar'
 import Intro from './components/Intro/Intro'
 import About from './components/About/About'
@@ -10,16 +9,12 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 
 function App() {
 
-  useEffect(() => {
-    document.title = "Jill Klatt Portfolio";  
-  }, []);
-
   return (
-    <div>
+    <div className='body'>
       <Router >
       <NavBar />
       <Intro />
-      <div className='body'>
+      <div >
       <Switch>
 
         <Route path='/' component={Intro}>
@@ -32,9 +27,10 @@ function App() {
 
       </Switch>
       <About />
-      <Contact />
+
       <Experience />
       <Projects />
+      <Contact />
       </div>
      </Router>
     </div>
