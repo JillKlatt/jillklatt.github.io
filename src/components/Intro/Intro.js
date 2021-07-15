@@ -4,14 +4,15 @@ import './Intro.css'
 function Intro() {
 
     return (
-        <div id='intro'>
+      <div id='intro'>
         <h2>Jill Klatt</h2>
         <h3>Full Stack Software Engineer</h3>
-        <Link to='#contact'>Contact Section</Link>
-        <a href='mailto:klatt.jill@gmail.com'>Send an email</a>
-        {/* <button onPress={() => Linking.openURL('mailto:klatt.jill@gmail.com') }
-      title="support@example.com" /> */}
+
+        <div className='intro contact'>
+          <a href='mailto:klatt.jill@gmail.com'>Send an email</a>
+          <Link to='#contact'>More Contact Options</Link>
         </div>
+      </div>
     )
 
 
