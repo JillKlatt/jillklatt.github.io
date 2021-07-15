@@ -1,3 +1,4 @@
+import './App.css'
 import { useEffect } from 'react';
 import NavBar from './components/NavBar/NavBar'
 import Intro from './components/Intro/Intro'
@@ -18,6 +19,7 @@ function App() {
       <Router >
       <NavBar />
       <Intro />
+      <div className='body'>
       <Switch>
 
         <Route path='/' component={Intro}>
@@ -33,7 +35,7 @@ function App() {
       <Contact />
       <Experience />
       <Projects />
-
+      </div>
      </Router>
     </div>
   );

@@ -1,0 +1,26 @@
+#navbar{
+    height: 20px;
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+    background-color: #2e2c2f;
+}
+
+a {
+    float: right;
+    display: block;
+    color: #eff2f9;
+    text-align: center;
+    padding: auto;
+    padding-right: 30px;
+    transition: all 0.5s ease;
+
+}
+
+a:visited {
+    color:#eff2f9;
+}
+
+.navbar a:hover{
+    background: #475b63;
+}

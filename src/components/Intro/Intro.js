@@ -4,7 +4,7 @@ import './Intro.css'
 function Intro() {
 
     return (
-        <div>
+        <div id='intro'>
         <h2>Jill Klatt</h2>
         <h3>Full Stack Software Engineer</h3>
         <Link to='#contact'>Contact Section</Link>
