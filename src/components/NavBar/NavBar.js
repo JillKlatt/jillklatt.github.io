@@ -1,10 +1,10 @@
 import { MenuItems } from "./MenuItems";
 import { useState } from 'react';
-import Intro from "../Intro";
-import About from '../About'
-import Contact from '../Contact'
-import Projects from '../Projects'
-import Experience from "../Experience";
+import Intro from "../Intro/Intro";
+import About from '../About/About'
+import Contact from '../Contact/Contact'
+import Projects from '../Projects/Projects'
+import Experience from "../Experience/Experience";
 import { NavHashLink } from 'react-router-hash-link';
 import { HashLink as Link } from 'react-router-hash-link';
 //import { NavLink } from 'react-router-dom'

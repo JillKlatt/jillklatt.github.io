@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 import NavBar from './components/NavBar/NavBar'
-import Intro from './components/Intro'
-import About from './components/About'
-import Contact from './components/Contact'
-import Projects from './components/Projects';
-import Experience from './components/Experience'
+import Intro from './components/Intro/Intro'
+import About from './components/About/About'
+import Contact from './components/Contact/Contact'
+import Projects from './components/Projects/Projects';
+import Experience from './components/Experience/Experience'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 
 function App() {
