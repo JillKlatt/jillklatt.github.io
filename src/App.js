@@ -17,6 +17,7 @@ function App() {
     <div>
       <Router >
       <NavBar />
+      <Intro />
       <Switch>
 
         <Route path='/' component={Intro}>
@@ -32,7 +33,6 @@ function App() {
       <Contact />
       <Experience />
       <Projects />
-      <Contact />
 
      </Router>
     </div>
