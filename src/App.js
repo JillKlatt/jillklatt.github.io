@@ -18,16 +18,23 @@ function App() {
       <Router >
       <NavBar />
       <Switch>
-      <Route path='/' component={Intro}>
-        <Route path='/about' component={About} />
-        <Route path='/experience' component={Experience} />
+
+        <Route path='/' component={Intro}>
+        <Route path='/#about' component={About} />
+        <Route path='/#experience' component={Experience} />
         <Route path='/projects' component={Projects} />
-      </Route>
-      <Route path='/contact' component={Contact} />
+        <Route path='/contact' component={Contact}/>
+        </Route>
+
 
       </Switch>
-      <Intro />
-      </Router>
+      <About />
+      <Contact />
+      <Experience />
+      <Projects />
+      <Contact />
+
+     </Router>
     </div>
   );
 }
