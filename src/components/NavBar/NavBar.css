@@ -1,23 +1,31 @@
 #navbar{
-    height: 20px;
+    height:60px;
     border: 1px solid black;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    background-color: #2e2c2f;
+    background: hsla(198, 16%, 33%, 0.801);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-a {
+.home{
+    font-family: 'Roboto', sans-serif;
+}
+
+.link a {
     float: right;
     display: block;
     color: #eff2f9;
     text-align: center;
-    padding: auto;
     padding-right: 30px;
     transition: all 0.5s ease;
-
+    font-family: 'Roboto', sans-serif;
 }
 
-a:visited {
+.link a:visited {
     color:#eff2f9;
 }
 

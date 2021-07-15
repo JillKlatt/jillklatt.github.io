@@ -5,6 +5,9 @@ function NavBar() {
 
     return (
         <div id='navbar' className='navbar'>
+            <div className='home'>
+                JK
+            </div>
             <div className='link'>
                 <Link smooth to="#about">About</Link>
                 <Link smooth to="#projects">Projects</Link>
