@@ -19,37 +19,9 @@ function Experience() {
     return (
         <div id='experience'>
             <div className='title'>
-                <h3><span style={{ color: '#b07156' }}>&gt;</span> EXPERIENCE</h3>
+                <h3><span style={{ color: '#b07156' }}>&gt;</span> WORK EXPERIENCE</h3>
 
             </div>
-
-            <h3 id='label'>SCHOOL</h3>
-            <div >
-                <Tabs className='tabs'>
-                    <TabList className='tablist'>
-                        <Tab id='flatiron'><h1>Flatiron</h1></Tab>
-                        <Tab id='cscc'><h1>Columbus State Community College</h1></Tab>                      
-                    </TabList>
-
-                    <TabPanel>
-                        <h2>Full Stack Software Engineering Program</h2>
-                        <ul className='job-description'>
-                            <li><span style={{ color: '#b07156' }}>&gt;</span> Solo projects</li>
-                            <li><span style={{ color: '#b07156' }}>&gt;</span> Other stuff</li>
-                        </ul>
-                    </TabPanel>
-                    <TabPanel>
-                        <h2>Columbus, OH</h2>
-                        <ul>
-                            <li><span style={{ color: '#b07156' }}>&gt;</span>American Sign Language, Deaf Studies Certificate</li>
-                        </ul>
-                    </TabPanel>
-                </Tabs>
-
-            </div>
-
-
-            <h3 id='label'>WORK</h3>
             <div >
                 <Tabs className='tabs'>
                     <TabList className='tablist'>

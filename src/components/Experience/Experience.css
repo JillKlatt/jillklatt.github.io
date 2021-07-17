@@ -27,7 +27,7 @@
     /* padding-top: 50px; */
     /* margin: 60px 70px 20px 70px; */
     font-family: 'Source Code Pro', monospace;
-    margin: 30px 120px; 
+    margin: 120px; 
     display: inline block;
     flex-flow: column;
 
@@ -37,6 +37,7 @@
     font-size: 25px;
     background-color: #3a383b;
     border-radius: 5px;
+    width: 515px;
     /* justify-items: center; */
 }
 
