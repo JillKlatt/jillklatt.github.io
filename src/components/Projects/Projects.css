@@ -1,4 +1,32 @@
 #projects{
     height: 100vh;
+    display: inline-flex;
+    flex-flow: column wrap;
     border: 2px solid black;
+}
+
+.title {
+    margin-top: 120px;
+    height: 100px;
+    color: #eff2f9;
+    background-color:  #9fbbcc28;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 20pt;
+}
+
+.title h3{
+    margin-left: 25pt;
+    font-size: 1.5em;
+    letter-spacing: 4pt;
+}
+
+.content {
+    color: #CBDAE2;
+    margin: 60px 70px 20px 70px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
