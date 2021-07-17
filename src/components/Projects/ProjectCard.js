@@ -12,9 +12,10 @@ function ProjectCard(props) {
                     <div className='hide'>
                         {props.label}
                     </div>
-                    <h5>{props.title}</h5>
+
                     </figure>
                 </a>
+                <h5>{props.title}</h5>
                 </div>
 
             </li>
