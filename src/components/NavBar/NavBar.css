@@ -34,12 +34,12 @@
 .home button{
     font-family: 'Source Code Pro', monospace;
     margin-left: 10pt;
+    margin: 10px;
     font-size: 1em;
     letter-spacing: 4pt;
     margin-top: 15px;
-    width: .5em;
-    height: .5em;
-    padding: 2em;
+    width: 4em;
+    height: 3em;
     background: #b07156;
     color: #eff2f9;
     border-radius: 5px;
