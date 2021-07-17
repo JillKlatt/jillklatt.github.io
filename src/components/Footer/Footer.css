@@ -1,0 +1,15 @@
+#footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #2f3d46;
+}
+
+#footer p{
+    font-family: 'Source Code Pro', monospace;
+    color:  #b07156;
+}
+
+#brittany a {
+    text-decoration: none;
+    color: #b07156;
+}
