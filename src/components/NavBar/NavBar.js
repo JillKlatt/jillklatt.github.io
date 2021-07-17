@@ -13,7 +13,7 @@ function NavBar() {
     return (
         <div id='navbar' className='navbar'>
             <div className='home'>
-                <button onClick={scrollToTop}>J♦K</button>
+                <button onClick={scrollToTop}>♦</button>
             </div>
             <div className='link'>
                 <Link smooth activeStyle={{ textDecoration: "overline" }} to="#about">About</Link>
