@@ -38,11 +38,13 @@
 
 .content li {
     font-family: 'Source Code Pro', monospace;
+    color: #978ea0;
     text-align: center;
-    padding: .25em;
+    padding: .75em;
 }
 
 .content ul{
+    column-gap: 20px;
     -moz-column-count: 4;
     -moz-column-gap: 20px;
     -webkit-column-count: 4;
@@ -81,14 +83,18 @@ position: relative;
     transition: all 0.3s linear;
   }
 
-#photo-div:hover{
+/* #photo-div:hover{
     /* transform: translate(5px, -5px); */
     /* transition: all 0.3s ease-in-out; */ 
-}
+
 
 #photo-div:hover::after{
     transform: translate(-5px, 5px);
     transition: all 0.3s linear;
+}
+
+#location{
+    color: #978ea0;
 }
 
 /* #prof-pic {
