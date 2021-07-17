@@ -9,10 +9,10 @@ function NavBar() {
                 JK
             </div>
             <div className='link'>
-                <Link smooth to="#about">About</Link>
-                <Link smooth to="#projects">Projects</Link>
-                <Link smooth to="#experience">Work Experience</Link>
-                <Link smooth to="#contact">Contact</Link>
+                <Link smooth activeStyle={{ textDecoration: "overline" }} to="#about">About</Link>
+                <Link smooth activeStyle={{ textDecoration: "overline" }} to="#projects">Projects</Link>
+                <Link smooth activeStyle={{ textDecoration: "overline" }} to="#experience">Work Experience</Link>
+                <Link smooth activeStyle={{ textDecoration: "overline" }} to="#contact">Contact</Link>
             </div>
         </div>
     )
