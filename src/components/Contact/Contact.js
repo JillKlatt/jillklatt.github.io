@@ -7,7 +7,7 @@ function Contact() {
             <div className='title'>
                 <h3>CONTACT ME</h3>
             </div>
-            <div className='content'>
+            <div className='contact-content'>
                 <div className='email'>
                     <a class='button' href='mailto:klatt.jill@gmail.com'>klatt.jill@gmail.com</a>
                 </div>
