@@ -57,10 +57,12 @@
     border-radius: 2px;
 }
 
+
 #photo-div {
 display: inline-block;
 position: relative;
 }
+
 
 #photo-div::before {
     content: '';
@@ -76,7 +78,18 @@ position: relative;
 
 #photo-div:hover::before {
     transform: translate(5px, -5px);
+    transition: all 0.3s linear;
   }
+
+#photo-div:hover{
+    /* transform: translate(5px, -5px); */
+    /* transition: all 0.3s ease-in-out; */ 
+}
+
+#photo-div:hover::after{
+    transform: translate(-5px, 5px);
+    transition: all 0.3s linear;
+}
 
 /* #prof-pic {
     width: 250px;
