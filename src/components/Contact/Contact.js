@@ -2,10 +2,35 @@ import './Contact.css'
 
 function Contact() {
 
-    return(
+    return (
         <div id='contact' >
-            <h3>Contact Me</h3>
-            <p>Here's my email:</p>
+            <div className='title'>
+                <h3>CONTACT ME</h3>
+            </div>
+            <div className='content'>
+                <div className='email'>
+                    <a class='button' href='mailto:klatt.jill@gmail.com'>klatt.jill@gmail.com</a>
+                </div>
+                <div className='socials'>
+                    <ul>
+                    <li>
+                        <a href='https://www.linkedin.com/in/jill-klatt-39b2a9200/' >
+                            <img src='/linkinlogo.png'/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='https://github.com/JillKlatt'>
+                            <img src='/githublogo.png'/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='https://dev.to/jillklatt'>
+                            <img src='/devlogo.png'/>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 }
