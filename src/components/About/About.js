@@ -9,6 +9,9 @@ function About() {
             </div>
             <div className='content'>
                 <div id='about-text'>
+                    <p id='location'>
+                        Currently located in Cleveland, Ohio
+                    </p>
                     <p>
                         In July 2021, I graduated Flatiron School's Software Enginnering Bootcamp. I've learned how to compentently work with:
                     </p>
