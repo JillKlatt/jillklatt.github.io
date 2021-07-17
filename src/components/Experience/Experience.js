@@ -31,7 +31,7 @@ function Experience() {
                     </TabList>
 
                     <TabPanel>
-                        <h2>Assistant Store Manager - Mayfield Heights, OH</h2>
+                        <h2>Assistant Manager - Mayfield Heights, OH</h2>
                         <ul className='job-description'>
                             <li><span style={{ color: '#b07156' }}>&gt;</span> Handled customer relations, complaints, and assistance.</li>
                             <li><span style={{ color: '#b07156' }}>&gt;</span> Oversaw daily operations, hiring and training staff, collaborating with vendors.</li>
