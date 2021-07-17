@@ -5,12 +5,18 @@ function Intro() {
 
     return (
       <div id='intro'>
-        <h2>Jill Klatt</h2>
-        <h3>Full Stack Software Engineer</h3>
-
+        <div className='name'>
+          <h1>JILL ♦ KLATT</h1>
+        </div>
+        <div className='tagline'>
+          <h3>Full Stack Software Engineer</h3>
+        </div>
+        <div className='bio'>
+        < p>Experienced Ruby on Rails and React JS developer with a background in the service industry. <br></br>People-oriented individual with a positive attitude and strong interpersonal skills. </p>
+        </div>
         <div className='intro contact'>
-          <a href='mailto:klatt.jill@gmail.com'>Send an email</a>
-          <Link to='#contact'>More Contact Options</Link>
+          <a class='button' href='mailto:klatt.jill@gmail.com'>Send an Email</a>
+          <Link class='button' smooth to='#contact'>More Contact Options</Link>
         </div>
       </div>
     )
