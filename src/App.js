@@ -5,7 +5,7 @@ import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience'
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
 
@@ -19,17 +19,15 @@ function App() {
 
         <Route path='/' component={Intro}>
         <Route path='/#about' component={About} />
-        <Route path='/projects' component={Projects} />
+        <Route path='/#projects' component={Projects} />
         <Route path='/#experience' component={Experience} />
-        <Route path='/contact' component={Contact}/>
+        <Route path='/#contact' component={Contact}/>
         </Route>
-
 
       </Switch>
       <About />
-
-      <Experience />
       <Projects />
+      <Experience />
       <Contact />
       </div>
      </Router>
