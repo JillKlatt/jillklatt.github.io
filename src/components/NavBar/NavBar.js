@@ -18,7 +18,7 @@ function NavBar() {
             <div className='link'>
                 <Link smooth activeStyle={{ textDecoration: "overline" }} to="#about">About</Link>
                 <Link smooth activeStyle={{ textDecoration: "overline" }} to="#projects">Projects</Link>
-                <Link smooth activeStyle={{ textDecoration: "overline" }} to="#experience">Work Experience</Link>
+                <Link smooth activeStyle={{ textDecoration: "overline" }} to="#experience">Experience</Link>
                 <Link smooth activeStyle={{ textDecoration: "overline" }} to="#contact">Contact</Link>
             </div>
         </div>
