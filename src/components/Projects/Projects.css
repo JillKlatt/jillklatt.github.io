@@ -1,10 +1,10 @@
 #projects{
     height: 100vh;
-    display: inline-flex;
+    display: inline flex;
     flex-flow: column wrap;
 }
 
-.title {
+/* .title {
     margin-top: 120px;
     height: 100px;
     color: #eff2f9;
@@ -19,21 +19,21 @@
     margin-left: 25pt;
     font-size: 1.5em;
     letter-spacing: 4pt;
-}
+} */
 
 .project-content {
     color: #CBDAE2;
     margin: 60px 70px 20px 70px;
     padding-top: 50px; 
-    display: inline-flex;
+    /* display: inline-flex; */
     flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: stretch;
+    align-items: stretch; 
 }
 
 .project-pic img{
     height: 300px;
-    width: auto;
+    width: 430px;
     border-radius: 10px;
 }
 
@@ -43,6 +43,12 @@
     transition: all 0.3s linear;
 }
 
+.project-cards {
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    align-content: stretch;
+}
 
 
 /* .pic-wrap {
