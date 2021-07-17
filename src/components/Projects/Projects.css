@@ -1,8 +1,7 @@
 #projects{
     height: 100vh;
-    display: inline-flex;
-    flex-flow: column wrap;
-    border: 2px solid black;
+    /* display: inline-flex;
+    flex-flow: column wrap; */
 }
 
 .title {
@@ -25,8 +24,33 @@
 .content {
     color: #CBDAE2;
     margin: 60px 70px 20px 70px;
+    padding-top: 50px; 
     display: inline-flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: stretch;
 }
+
+.project-pic img{
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.project-pic img:hover {
+    opacity: 50%;
+    display: block;
+}
+
+.pic-wrap {
+    position: relative;
+}
+
+.hide{
+visibility: hidden;
+}
+
+.hide:hover{
+visibility: visible;
+}
+
