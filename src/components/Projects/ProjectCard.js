@@ -4,7 +4,6 @@ function ProjectCard(props) {
     
     return(
         <div>
-            <li>
                 <div>
                 <a href={props.path} className='project-pic'>
                     <figure className='pic-wrap' data-category={props.label}>
@@ -18,7 +17,6 @@ function ProjectCard(props) {
                 <h5>{props.title}</h5>
                 </div>
 
-            </li>
         </div>
     )
 }
