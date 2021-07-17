@@ -5,6 +5,7 @@ import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience'
+import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Experience />
       <Contact />
       </div>
+      <Footer />
      </Router>
     </div>
   );
