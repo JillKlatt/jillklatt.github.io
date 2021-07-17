@@ -1,6 +1,5 @@
 #navbar{
     height:60px;
-    border: 1px solid black;
     position: fixed;
     top: 0;
     left: 0;
@@ -16,19 +15,18 @@
 }
 
 .link a {
-    float: right;
-    display: block;
+    display: inline-flex;
     color: #eff2f9;
     text-align: center;
-    padding-right: 30px;
+    margin-right: 30px;
+    padding: 5px;
     transition: all 0.5s ease;
     font-family: 'Roboto', sans-serif;
+    text-decoration:none;
 }
 
-.link a:visited {
-    color:#eff2f9;
-}
-
-.navbar a:hover{
-    background: #475b63;
+.link a:hover{
+    background: #b07156;
+    text-align: center;
+    border-radius: 2px;
 }
