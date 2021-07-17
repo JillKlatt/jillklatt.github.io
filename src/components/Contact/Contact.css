@@ -2,6 +2,7 @@
     height: 100vh;
     width: 100%;
     display: inline flex;
+    flex-direction: column wrap;
 }
 
 .title {
@@ -20,12 +21,14 @@
     letter-spacing: 4pt;
 }
 
-.content {
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
+.contact-content {
+flex-direction: column;
+margin: 15% 35%; 
 }
 
+.email {
+    flex-direction: column;
+}
 .button{
     width: 115px;
     height: 25px;
@@ -51,7 +54,7 @@
     border: #b07156 solid 2px;  
 }
 
-.socials li{
+.socials ul{
     justify-content: space-around;
 }
 
