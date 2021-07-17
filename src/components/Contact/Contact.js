@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div id='contact' >
             <div className='title'>
-                <h3>CONTACT ME</h3>
+                <h3><span style={{ color: '#b07156' }}>&gt;</span> CONTACT ME</h3>
             </div>
             <div className='contact-content'>
                 <div className='email'>
