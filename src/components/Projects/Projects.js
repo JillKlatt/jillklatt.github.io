@@ -9,7 +9,7 @@ function Projects() {
             <div className='title'>
             <h3><span style={{ color: '#b07156' }}>&gt;</span> PROJECTS</h3>
             </div>
-        <div className='content'>
+        <div className='project-content'>
             <div className='project-cards'>
                 <ul>
                     <ProjectCard title="Retail Therapy" path='https://retail-therapy.herokuapp.com' src='/retailtherapy.jpg' alt='Supermarket Aisle' label='Grocery Store Role Play Adventure' />
