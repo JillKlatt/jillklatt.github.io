@@ -24,8 +24,7 @@
 
 
 .tabs{
-    /* padding-top: 50px; */
-    /* margin: 60px 70px 20px 70px; */
+    padding-top: 50px;
     font-family: 'Source Code Pro', monospace;
     margin: 15% 35%; 
     display: inline block;

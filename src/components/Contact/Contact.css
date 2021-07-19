@@ -64,7 +64,8 @@ margin: 15% 35%;
 }
 
 .socials img {
-    width: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 .socials img:hover{
