@@ -1,11 +1,13 @@
-#about{
+#contact{
     height: 100vh;
-    display: inline-flex;
-    flex-flow: column wrap;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-.title {
+.contact-title {
     margin-top: 120px;
+    width: 100%;
     height: 100px;
     color: #eff2f9;
     background-color:  #9fbbcc28;
@@ -15,14 +17,13 @@
     font-size: 20pt;
 }
 
-.title h3{
+.contact-title h3{
     margin-left: 25pt;
     font-size: 1.5em;
     letter-spacing: 4pt;
 }
 
 .contact-content {
-flex-direction: column;
 margin: 15% 35%; 
 }
 
