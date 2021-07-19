@@ -36,6 +36,10 @@
     max-width: 60%;
 }
 
+#about-text p {
+    padding: 3px;
+}
+
 .content li {
     font-family: 'Source Code Pro', monospace;
     color: #978ea0;
