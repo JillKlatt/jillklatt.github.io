@@ -18,7 +18,7 @@ function Experience() {
 
     return (
         <div id='experience'>
-            <div className='title'>
+            <div className='experience-title'>
                 <h3><span style={{ color: '#b07156' }}>&gt;</span> WORK EXPERIENCE</h3>
 
             </div>
