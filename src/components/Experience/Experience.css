@@ -5,8 +5,8 @@
     flex-flow: column wrap;
 }
 
-.title {
-    margin-top: 60px;
+.experience-title {
+    margin-top: 120px;
     height: 100px;
     color: #eff2f9;
     background-color:  #9fbbcc28;
@@ -16,7 +16,7 @@
     font-size: 20pt;
 }
 
-.title h3{
+.experience-title h3{
     margin-left: 25pt;
     font-size: 1.5em;
     letter-spacing: 4pt;
