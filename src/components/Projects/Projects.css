@@ -1,7 +1,7 @@
 #projects{
     height: 100vh;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
 }
 
 .project-title {
