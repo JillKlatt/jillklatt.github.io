@@ -25,8 +25,7 @@ function Experience() {
             <div >
                 <Tabs className='tabs'>
                     <TabList className='tablist'>
-                        <CustomTab id='custom'>Custom Tab</CustomTab>
-                        <Tab id='aldi' style={{ backgroundColor:'#eff2f9'}}><h1>Aldi</h1></Tab>
+                        <Tab id='aldi'><h1>Aldi</h1></Tab>
                         <Tab id='noasis'><h1>Nature's Oasis</h1></Tab>
                         <Tab id='melt'><h1>Melt</h1></Tab>
                     </TabList>
