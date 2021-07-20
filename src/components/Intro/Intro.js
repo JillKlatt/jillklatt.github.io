@@ -6,7 +6,7 @@ function Intro() {
     return (
       <div id='intro'>
         <div className='name'>
-          <h1>JILL ♦ KLATT</h1>
+          <h1>JILL <span style={{ color: '#2E2C2F' }}>♦</span> KLATT</h1>
         </div>
         <div className='tagline'>
           <h3>Full Stack Software Engineer</h3>
