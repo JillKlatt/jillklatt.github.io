@@ -8,8 +8,6 @@
 #form label {
     font-family: 'Roboto', sans-serif;
     color: #89ABBD;
-
-
 }
 
 #form input {    
@@ -19,6 +17,7 @@
     width: 200px;
     margin-bottom: 20px;
     border-radius: 5px;
+    background-color: #EFF2F9;
 }
 
 #form textarea{
@@ -26,13 +25,14 @@
     border-bottom: 2px solid #B07156;
     height: 300px;
     width: 200px;
+    background-color: #EFF2F9;
 }
 
-#submit{
+#submit {
     width: 80px;
-    height: 25px;
+    height: 35px;
     margin-top: 10px;
-    margin-left: 55px;
+    margin-left: 65px;
     background: #b07156;
     color: #eff2f9;
     font-family: 'Roboto', sans-serif;
@@ -41,6 +41,7 @@
     transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
     box-shadow: inset 0 0 0 #86A6BA, 0 0 .5em #86A6BA;
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 #submit:hover{
@@ -50,5 +51,6 @@
     border: #b07156 solid 2px;  
     font-weight: bold;
     cursor: pointer;
+    transform: inherit;
 }
 
