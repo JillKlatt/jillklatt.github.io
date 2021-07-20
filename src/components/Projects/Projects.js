@@ -15,6 +15,7 @@ function Projects() {
                     <ProjectCard title='DM Notebook' path='https://dm-notebook.herokuapp.com/' src='dmnotebook.png' alt="DM Notebook" label='Ruby on Rails' description='D&D Beyond Copy with Character, Campaign, and Weapon creation' />
                     <ProjectCard title="Interpreter Connection" path='https://www.youtube.com/watch?v=wp_YVFNdPhA&ab_channel=JillKlatt' src='/jslogo.png' alt="JS Logo" label='Vanilla JavaScript' description='Educational single page application that displays available interpreters for various cities and languages' />
                     <ProjectCard title='Character Creator' path='https://www.loom.com/share/440b64a1af284b43a1eefcf6b5d323a4' src='/sinatralogo.png' alt='Sinatra Logo' label='Sinatra' description='Basic Character Creator' />
+                    <ProjectCard title='This Website' path='/https://github.com/JillKlatt/jillklatt.github.io' description='Template Design and Inspo' src='/jklogo2.png' alt='github logo' label='React / Github Pages' />
                 </div>
         </div>
     )
