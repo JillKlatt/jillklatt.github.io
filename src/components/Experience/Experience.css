@@ -31,8 +31,8 @@
 }
 
 .tablist{
-    padding-left: 250px;
-    padding-right: 200px;
+    /* padding-left: 250px;
+    padding-right: 200px; */
     font-size: 25px;
     background-color: #3a383b;
     border-radius: 5px;
@@ -55,6 +55,10 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     color: #232224;
+}
+
+#custom {
+    background-color: red;
 }
 
 .tabs ul{
