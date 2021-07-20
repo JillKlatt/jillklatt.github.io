@@ -58,13 +58,9 @@
 
 }
 
-#custom {
-    background-color: red;
-}
-
 .tabs ul{
     list-style-type: none;
-    color: #232224;
+    color: #89ABBD;
 }
 
 .tabs li {
