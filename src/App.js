@@ -18,7 +18,7 @@ function App() {
       <div >
       <Switch>
 
-        <Route path='/' component={Intro}>
+        <Route path='/#' component={Intro}>
         <Route path='/#about' component={About} />
         <Route path='/#projects' component={Projects} />
         <Route path='/#experience' component={Experience} />
