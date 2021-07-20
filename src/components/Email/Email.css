@@ -8,3 +8,7 @@
     height: 30px;
     width: 40px;
 }
+
+#sticky-email img:hover {
+    background-color: #B07156;
+}
