@@ -56,7 +56,7 @@ function ContactForm() {
                     field="message"
                     errors={state.errors}
                 />
-                <button class='button' id='submit' type="submit" disabled={state.submitting}>
+                <button className='button' id='submit' type="submit" disabled={state.submitting}>
                     Send
                 </button>
             </form>
