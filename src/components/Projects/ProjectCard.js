@@ -9,9 +9,9 @@ function ProjectCard({ title, path, src, alt, label, description }) {
                     <img class="project-image" src={src} alt={alt} />
                     
                     <div class="project-description">
-                        <h5>{title}</h5>
+                        <h5 id='card-title'>{title}</h5>
                         <p>{description}</p>
-                        {label} 
+                        <div id='card-label'>{label}</div> 
                     </div>
                     
                 </a>  
