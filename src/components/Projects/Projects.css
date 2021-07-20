@@ -28,6 +28,10 @@
     flex-flow: row wrap;
 }
 
+#card-title {
+    letter-spacing: 3pt;
+}
+
 .project-details {
     position: relative;
     padding: 8px;
@@ -59,16 +63,20 @@
     top: 38px;
     height: 300px;
     width: 430px;
-    color: #004cff;
+    color: #eff2f9;
     font-family: 'Source Code Pro', monospace;
     text-align: center;
     visibility: hidden;
-    background-color: #eff2f9d5;
+    background-color: #475b6367;
     opacity: 60%;
     object-fit: cover;
     border-radius: 10px;
     /* transition effect. not necessary */
     transition: opacity .2s, visibility .2s;
+  }
+
+  .project-description p {
+      padding: 10px;
   }
   
   .project-details:hover .project-description {
@@ -80,6 +88,10 @@
     font-family: 'Roboto', sans-serif;
     justify-items: center;
     font-size: 30px;
+}
+
+#card-label {
+    padding-top: 20px;
 }
 
 
