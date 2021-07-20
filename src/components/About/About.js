@@ -2,6 +2,8 @@ import './About.css'
 
 function About() {
 
+    const bullet = <span style={{ color: '#b07156' }}>♦ </span>
+
     return (
         <div id='about'>
             <div className='about-title'>
@@ -16,13 +18,13 @@ function About() {
                         In July 2021, I graduated Flatiron School's Software Enginnering Bootcamp. I've learned how to compentently work with:
                     </p>
                     <ul>
-                        <li>♦ JavaScript (ES6+)</li>
-                        <li>♦ React</li>
-                        <li>♦ Ruby on Rails</li>
-                        <li>♦ Sinatra</li>
-                        <li>♦ SQL / PostgreSQL</li>
-                        <li>♦ HTML / CSS</li>
-                        <li>♦ Git / Github</li>
+                        <li>{bullet}JavaScript (ES6+)</li>
+                        <li>{bullet}React</li>
+                        <li>{bullet}Ruby on Rails</li>
+                        <li>{bullet}Sinatra</li>
+                        <li>{bullet}SQL / PostgreSQL</li>
+                        <li>{bullet}HTML / CSS</li>
+                        <li>{bullet}Git / Github</li>
 
                     </ul>
                     <p>Software Engineering gives me such an incredible gateway for creativity and efficiency. I've always strived to make logical and fun solutions to problems, and now I feel that I have the tools to do so in a functional and tangible way.
