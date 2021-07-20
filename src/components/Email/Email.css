@@ -1,0 +1,10 @@
+#sticky-email {
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+}
+
+#sticky-email img {
+    height: 30px;
+    width: 40px;
+}
