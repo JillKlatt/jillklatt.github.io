@@ -46,7 +46,7 @@
     padding-right: 5px;
     font-size: 30px;
     border-radius: 5px;
-    color:#89ABBD;
+    color: #232224;
     margin: 10px 10px;
     justify-items: center;
 }
@@ -54,7 +54,8 @@
 .tabs h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    color: #232224;
+    color: #89ABBD;
+
 }
 
 #custom {

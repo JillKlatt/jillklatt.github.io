@@ -2,6 +2,7 @@
     height: 100vh;
     display: flex;
     flex-flow: row wrap;
+    height: fit-content;
 }
 
 .project-title {
