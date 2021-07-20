@@ -23,9 +23,10 @@
 }
 
 .card-container{
-    margin: 60px 70px 20px 70px;
+    margin: 0px 70px 20px 70px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 #card-title {
