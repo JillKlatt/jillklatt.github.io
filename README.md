@@ -15,6 +15,10 @@ To create your own React App using Github pages, check out [here](https://dev.to
 <br />
 #2E2C2F Raisin Black
 
+
+### LICENSE
+[MIT](https://github.com/JillKlatt/jillklatt.github.io/blob/master/LICENSE.md)
+
 ### Special Thanks
 
 Inspiration from [Brittany Chiang](https://github.com/bchiang7/v4)
