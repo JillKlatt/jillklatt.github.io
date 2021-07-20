@@ -34,7 +34,7 @@
     /* padding-left: 250px;
     padding-right: 200px; */
     font-size: 25px;
-    background-color: #3a383b;
+    background-color: #3a383bad;
     border-radius: 5px;
     width: 515px;
     /* justify-items: center; */
@@ -46,7 +46,7 @@
     padding-right: 5px;
     font-size: 30px;
     border-radius: 5px;
-    color: #232224;
+    color: #1e1d1f;
     margin: 10px 10px;
     justify-items: center;
 }
