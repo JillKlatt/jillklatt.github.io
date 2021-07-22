@@ -14,7 +14,6 @@
     -moz-animation: fadeIn ease 5s;
     -o-animation: fadeIn ease 5s;
     -ms-animation: fadeIn ease 5s;
-
 }
 
 .home{
@@ -52,7 +51,6 @@
     transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
     text-decoration: none;
     box-shadow: #2E2C2F;
-
 }
 
 #home-btn:hover{
