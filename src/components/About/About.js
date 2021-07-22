@@ -15,7 +15,7 @@ function About() {
                         Currently located in Cleveland, Ohio
                     </p>
                     <p>
-                        In July 2021, I graduated Flatiron School's Software Enginnering Bootcamp. I've learned how to compentently work with:
+                        In July 2021, I graduated Flatiron School's Software Enginnering Bootcamp. I've learned how to competently work with:
                     </p>
                     <ul>
                         <li>{bullet}JavaScript (ES6+)</li>
