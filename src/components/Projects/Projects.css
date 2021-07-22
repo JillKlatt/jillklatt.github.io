@@ -1,6 +1,6 @@
 #projects{
     min-height: 100vh;
-    display: flex;
+    display: inline-flex;
     flex-flow: row wrap;
     height: fit-content;
 }

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     border-top: 2px solid #2f3d46;
+    width: 100%;
 }
 
 #footer p{
