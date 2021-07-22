@@ -2,6 +2,11 @@
     position: fixed;
     bottom: 100px;
     right: 40px;
+    animation: fadeIn ease 9s;
+    -webkit-animation: fadeIn ease 9s;
+    -moz-animation: fadeIn ease 9s;
+    -o-animation: fadeIn ease 9s;
+    -ms-animation: fadeIn ease 9s;
 }
 
 #sticky-email img {
@@ -12,5 +17,5 @@
 
 #sticky-email img:hover {
     background-color: #B07156;
-    transform: rotate(180deg);
+    transform: rotate(-30deg);
 }
