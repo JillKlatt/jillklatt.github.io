@@ -4,7 +4,7 @@
 
 To create your own React App using Github pages, check out [here](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
 
-### Color Pallet:
+### Color Palette:
 #EFF2F9 Alice Blue
 <br />
 #89ABBD Pewter Blue
