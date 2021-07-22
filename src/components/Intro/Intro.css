@@ -13,6 +13,11 @@
     font-size: 30px;
     margin-top: 15%;
     letter-spacing: 7pt;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
 }
 
 .name h1{
@@ -22,10 +27,20 @@
 .tagline{
     color: #86a6ba;
     font-size: 20px;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
 }
 
 .intro-contact {
     float:none;
+    animation: fadeIn ease 9s;
+    -webkit-animation: fadeIn ease 9s;
+    -moz-animation: fadeIn ease 9s;
+    -o-animation: fadeIn ease 9s;
+    -ms-animation: fadeIn ease 9s;
 }
 
 .intro-contact a {
@@ -60,6 +75,11 @@
 
 .bio{
     width: 350pt;
+    animation: fadeIn ease 7s;
+    -webkit-animation: fadeIn ease 7s;
+    -moz-animation: fadeIn ease 7s;
+    -o-animation: fadeIn ease 7s;
+    -ms-animation: fadeIn ease 7s;
 }
 
 .bio p{
@@ -67,6 +87,7 @@
     padding: 30px;
     color: #86a6ba;
 }
+
 
 #intro-button {
     animation:bouncy 5s infinite linear;
@@ -81,3 +102,35 @@
     50%{top:0em}
     100%{top:0em;}
     }
+
+     /* Key Frames */
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    40%{opacity:0}
+    100% {opacity:1;}
+  }
+    
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    40%{opacity:0}
+    100% {opacity:1;}
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    40%{opacity:0}
+    100% {opacity:1;}
+  }
+
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    40%{opacity:0}
+    100% {opacity:1;}
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    40%{opacity:0}
+    100% {opacity:1;}
+  }
