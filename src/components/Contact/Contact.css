@@ -1,7 +1,8 @@
 #contact{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-flow: column wrap;
+    height: fit-content;
 }
 
 .contact-title {
