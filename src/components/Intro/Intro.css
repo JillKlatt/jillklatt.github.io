@@ -88,11 +88,20 @@
     color: #86a6ba;
 }
 
+#intro-email {
+    animation:bouncy 5s infinite linear;
+    position:relative;
+    padding-right: 44.5px;
+    padding-left: 44.5px;
+}
 
-#intro-button {
+
+#intro-contact-scroll{
     animation:bouncy 5s infinite linear;
     position:relative;
 }
+
+
 @keyframes bouncy {
     0%{top:0em}
     40%{top:0em}
