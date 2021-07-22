@@ -2,7 +2,7 @@
 
 #### After struggling to find a template that worked for me, I finally decided to venture out and attempt to create my own
 
-To create your own React App using Github pages, check out [here](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
+To create your own React App using Github pages, check out [this great tutorial](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
 
 ### Color Palette:
 #EFF2F9 Alice Blue
