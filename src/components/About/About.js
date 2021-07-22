@@ -23,6 +23,7 @@ function About() {
                         <li>{bullet}Ruby on Rails</li>
                         <li>{bullet}Sinatra</li>
                         <li>{bullet}SQL / PostgreSQL</li>
+                        <li>{bullet}Redux</li>
                         <li>{bullet}HTML / CSS</li>
                         <li>{bullet}Git / Github</li>
 
