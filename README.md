@@ -4,7 +4,7 @@
 
 ### Read more about this project
 
-
+[Dev](https://dev.to/jillklatt/making-a-portfolio-website-from-scratch-5576)
 
 ### Color Palette
 
