@@ -1,6 +1,6 @@
 # Jill Klatt Portfolio
 
-#### After struggling to find a template that worked for me, I finally decided to venture out and attempt to create my own
+#### After struggling to find a template that worked for me, I finally decided to venture out and attempt to create my own!
 
 ### Read more about this project
 
@@ -17,6 +17,12 @@
 ### LICENSE
 
 [MIT](https://github.com/JillKlatt/jillklatt.github.io/blob/master/LICENSE.md)
+
+### Contributors Guide
+
+##### If you would like to contribute or fork this repo to repurpose for yourself, feel free! However, please give credit where it is due. 
+
+##### If you create something you like from my template, please send me a link! I'd love to see it!
 
 ### Special Thanks
 
