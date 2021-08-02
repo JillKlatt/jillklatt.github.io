@@ -21,7 +21,7 @@
 }
 
 .name h1{
-    margin-left: 10pt;
+    margin-left: 38pt;
 }
 
 .tagline{
@@ -80,7 +80,7 @@
 }
 
 .bio p{
-    margin: 0 10px 25px 10px;
+    /* margin: 0 10px 25px 10px; */
     padding: 30px;
     color: #86a6ba;
 }
