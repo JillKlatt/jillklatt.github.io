@@ -22,7 +22,7 @@
 }
 
 .name h1{
-    margin-left: 38pt;
+    margin-left: 20pt;
 }
 
 .tagline{
@@ -72,6 +72,10 @@
 }
 
 .bio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 350pt;
     animation: fadeIn ease 7s;
     -webkit-animation: fadeIn ease 7s;
@@ -81,7 +85,8 @@
 }
 
 .bio p{
-    /* margin: 0 10px 25px 10px; */
+    display: flex;
+    justify-content: center;
     padding: 30px;
     color: #86a6ba;
 }
