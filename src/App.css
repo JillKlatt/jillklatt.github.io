@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-color:#bbc2d45d;
+    }
+  }
+
 .body {
     margin: 0;
 }

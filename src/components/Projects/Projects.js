@@ -6,7 +6,7 @@ function Projects() {
 
     return (
         <div id='projects'>
-            <div className='project-title'>
+            <div className='title'>
                 <h3><span style={{ color: '#b07156' }}>&gt;</span> PROJECTS</h3>
             </div>
         

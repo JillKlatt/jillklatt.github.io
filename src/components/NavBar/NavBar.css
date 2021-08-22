@@ -1,9 +1,9 @@
 #navbar{
     height:60px;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     background: hsla(198, 16%, 33%, 0.801);
     display: flex;
     align-items: center;

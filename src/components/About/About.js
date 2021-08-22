@@ -6,7 +6,7 @@ function About() {
 
     return (
         <div id='about'>
-            <div className='about-title'>
+            <div className='title'>
                 <h3><span style={{ color: '#b07156' }}>&gt;</span> ABOUT ME</h3>
             </div>
             <div className='content'>
@@ -28,8 +28,8 @@ function About() {
                         <li>{bullet}Git / Github</li>
 
                     </ul>
-                    <p>Software Engineering gives me such an incredible gateway for creativity and efficiency. I've always strived to make logical and fun solutions to problems, and now I feel that I have the tools to do so in a functional and tangible way.
-                        When I'm not coding, I enjoy spending time consuming and creating Dungeons and Dragons content and hiking with my two old, wonderful dogs.</p>
+                    <p>Software Engineering gives me such an incredible gateway for creativity and efficiency. I've always strived to make logical, fun, and inventive solutions to problems, and now I feel that I have the tools to do so in a functional, tangible way.</p>
+                    <p>When I'm not coding, I enjoy spending time consuming and creating Dungeons and Dragons content and spending time with my two old, wonderful dogs.</p>
                 </div>
                 <div id='photo-div' className='prof-pic'>
                     <img id='prof-pic' src="/profpic.jpg" alt='Jill Klatt Profile Pic with an incredible, wonderful, sweet baby dog'></img>
@@ -38,9 +38,9 @@ function About() {
 
                 </div>
 
-                </div>
             </div>
-            )
+        </div>
+    )
 }
 
-            export default About
+export default About

@@ -4,7 +4,7 @@
     flex-flow: column wrap;
 }
 
-.about-title {
+.title {
     margin-top: 120px;
     height: 100px;
     color: #eff2f9;
@@ -15,7 +15,7 @@
     font-size: 20pt;
 }
 
-.about-title h3{
+.title h3{
     margin-left: 25pt;
     font-size: 1.5em;
     letter-spacing: 4pt;
