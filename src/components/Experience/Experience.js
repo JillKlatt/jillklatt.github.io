@@ -25,10 +25,21 @@ function Experience() {
             <div >
                 <Tabs className='tabs'>
                     <TabList className='tablist'>
+                        <Tab id='t-c'><h1>Flatiron School</h1></Tab>
                         <Tab id='aldi'><h1>Aldi</h1></Tab>
                         <Tab id='noasis'><h1>Nature's Oasis</h1></Tab>
                         <Tab id='melt'><h1>Melt</h1></Tab>
                     </TabList>
+                    <div className='panel'>
+                    <TabPanel>
+                        <h2>Technical Coach</h2>
+                        <ul className='job-description'>
+                            <li>{bullet} Educate and guide students using the Socratic Method.</li>
+                            <li>{bullet} Troubleshoot unknown code quickly and efficiently with technical explanation.</li>
+                            <li>{bullet} Debug React, Vanilla JS, Ruby, Rails, and Python issues.</li>
+                            <li>{bullet} Contribute to learn.co curriculum, and communicate issues and fix errors in labs and lessons.</li>
+                        </ul>
+                    </TabPanel>
 
                     <TabPanel>
                         <h2>Assistant Manager - Mayfield Heights, OH</h2>
@@ -59,6 +70,7 @@ function Experience() {
                             <li>{bullet} Handled liquor inventory, ordering, and invoicing for bar supplies.</li>
                         </ul>
                     </TabPanel>
+                    </div>
                 </Tabs>
             </div>
         </div>

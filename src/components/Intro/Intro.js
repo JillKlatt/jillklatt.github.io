@@ -13,7 +13,7 @@ function Intro() {
         <h3>Full Stack Software Engineer</h3>
       </div>
       <div className='bio'>
-        <p>Experienced Ruby on Rails and React JS developer with a background in the service industry. <br></br>People-oriented individual with a positive attitude and strong interpersonal skills. </p>
+        <p>Experienced React JS and Ruby on Rails developer with a background in the service industry. <br></br>People-oriented individual with a positive attitude and strong interpersonal skills. </p>
       </div>
       <div className='intro-contact'>
         <a id='intro-email' class='intro-button' href='mailto:klatt.jill@gmail.com'>Send an Email</a>
