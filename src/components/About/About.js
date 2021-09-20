@@ -23,13 +23,13 @@ function About() {
                         <li>{bullet}Ruby on Rails</li>
                         <li>{bullet}Sinatra</li>
                         <li>{bullet}SQL / PostgreSQL</li>
-                        <li>{bullet}MongoDB / NOSQL</li>
+                        {/* <li>{bullet}MongoDB / NOSQL</li> */}
                         <li>{bullet}Redux</li>
                         <li>{bullet}HTML / CSS / SASS</li>
                         <li>{bullet}Git / Github</li>
-                        <li>{bullet}Node.js</li>
+                        {/* <li>{bullet}Node.js</li>
                         <li>{bullet}Express</li>
-                        <li>{bullet}AWS</li>
+                        <li>{bullet}AWS</li> */}
 
                     </ul>
                     <p>Software Engineering gives me such an incredible gateway for creativity and efficiency. I've always strived to make logical, fun, and inventive solutions to problems, and now I feel that I have the tools to do so in a functional, tangible way.</p>
